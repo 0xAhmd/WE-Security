@@ -18,9 +18,13 @@ This is a simple website showcasing pricing plans for CCTV security services. Th
 ## How to Use
 
 1. Clone the repository to your local machine.
-2. Open the `index.html` file in your web browser.
-3. Explore the pricing plans and features.
-4. Click on the "Order Now" button to order a plan.
+2. ```
+   git clone https://github.com/0xAhmd/WE-Security.git
+   ```
+   
+3. Open the `index.html` file in your web browser.
+4. Explore the pricing plans and features.
+5. Click on the "Order Now" button to order a plan.
 
 ## Contributing
 
