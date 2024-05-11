@@ -1,0 +1,86 @@
+body {
+    font-family: 'JetBrains Mono', monospace; /* Use JetBrains Mono font with monospace fallback */
+    color: white;
+}
+
+.newColor{
+    background-color: #151d25;
+}
+
+.custom-bg-color {
+    background-color: #18243c;
+    color: white;
+}
+
+.bg-gold {
+    background-color: rgb(209, 180, 15);
+}
+
+.btn-gold {
+    background-color: gold;
+    color: rgb(255, 255, 255); /* Ensuring contrast for text */
+    border-color: gold;
+}
+
+.btn-danger {
+    background-color: red !important;
+    border-color: red !important;
+}
+
+
+
+.card-body{
+    color: white;
+}
+
+/* Your existing CSS styles */
+.navbar {
+    box-shadow: 0 2px 7px rgb(172, 175, 197);
+}
+
+header {
+    min-height: 100vh;
+    background: #151d25; /* Changed background color */
+    background-position: center;
+    background-size: cover;
+}
+
+.header-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#about h5 {
+    letter-spacing: 5px;
+}
+
+#about img {
+    min-height: 120%;
+}
+.about-image {
+    width: 100%; /* Adjust the width to your preference */
+    height: 200px; /* Set the fixed height */
+    object-fit: contain; /* Ensure the entire image is visible within the container */
+    display: block; /* Make it a block element to center it horizontally */
+    margin: 0 auto; /* Center the image horizontally */
+}
+.btn-info {
+    background-color: #431d70; /* New background color for Read More button */
+    border-color: #431d70; /* Border color */
+}
+
+.btn-info:hover {
+    background-color: #431d70; /* Darker background color on hover */
+}
+
+.btn-danger {
+    background-color: #431d70; /* New background color for Contact Us button */
+    border-color: #431d70; /* Border color */
+}
+
+.btn-danger:hover {
+    background-color: #431d70; /* Darker background color on hover */
+}
