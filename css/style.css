@@ -14,19 +14,51 @@ body {
 
 .bg-gold {
     background-color: rgb(209, 180, 15);
+    animation: none;
+    transition: none;
 }
 
 .btn-gold {
     background-color: gold;
     color: rgb(255, 255, 255); /* Ensuring contrast for text */
     border-color: gold;
+    animation: none;
+    transition: none;
 }
+/* Remove animations from specific buttons */
+
+
 
 .btn-danger {
     background-color: red !important;
     border-color: red !important;
+    animation: none;
+    transition: none;
 }
 
+/* Add the text writing animation */
+/* Text writing animation */
+@keyframes write {
+    from {
+        width: 0;
+    }
+}
+
+.text-writing-animation {
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.text-writing-animation h5,
+.text-writing-animation h1 {
+    animation: write 2s steps(40) forwards; /* Adjust timing and steps as needed */
+}
+
+/* Remove animations from specific buttons */
+.no-animation {
+    animation: none !important;
+    transition: none !important;
+}
 
 
 .card-body{
@@ -70,17 +102,25 @@ header {
 .btn-info {
     background-color: #431d70; /* New background color for Read More button */
     border-color: #431d70; /* Border color */
+    animation: none;
+    transition: none;
 }
 
 .btn-info:hover {
     background-color: #431d70; /* Darker background color on hover */
+    animation: none;
+    transition: none;
 }
 
 .btn-danger {
     background-color: #431d70; /* New background color for Contact Us button */
     border-color: #431d70; /* Border color */
+    animation: none;
+    transition: none;
 }
 
 .btn-danger:hover {
     background-color: #431d70; /* Darker background color on hover */
+    animation: none;
+    transition: none;
 }
